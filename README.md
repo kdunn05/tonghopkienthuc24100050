@@ -47,16 +47,16 @@ Máy tính có nhiều ứng dụng trong các lĩnh vực như:
 - Hệ thống có vị trí: Giá trị của mỗi ký hiệu phụ thuộc vào vị trí của nó (ví dụ: hệ thập phân sử dụng các chữ số từ 0 đến 9).
 - Hệ thống không có vị trí: Giá trị không thay đổi dù vị trí có thay đổi (ví dụ: số La Mã).
 - Các hệ thống số chính:
-+ Thập phân (Cơ số 10): Sử dụng 10 ký hiệu {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
-+ Nhị phân (Cơ số 2): Sử dụng 2 ký hiệu {0, 1}, giá trị ở mỗi vị trí là 2 mũ vị trí.
-+ Bát phân (Cơ số 8): Sử dụng 8 ký hiệu {0, 1, 2, 3, 4, 5, 6, 7}, mã hóa mỗi số nhị phân bằng nhóm 3 bit.
-+ Thập lục phân (Cơ số 16): Sử dụng 16 ký hiệu {0-9, A-F}, mã hóa mỗi số nhị phân bằng nhóm 4 bit.
+ + Thập phân (Cơ số 10): Sử dụng 10 ký hiệu {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+ + Nhị phân (Cơ số 2): Sử dụng 2 ký hiệu {0, 1}, giá trị ở mỗi vị trí là 2 mũ vị trí.
+ + Bát phân (Cơ số 8): Sử dụng 8 ký hiệu {0, 1, 2, 3, 4, 5, 6, 7}, mã hóa mỗi số nhị phân bằng nhóm 3 bit.
+ + Thập lục phân (Cơ số 16): Sử dụng 16 ký hiệu {0-9, A-F}, mã hóa mỗi số nhị phân bằng nhóm 4 bit.
 ### Chuyển đổi cơ số:
 - Từ hệ bất kỳ sang thập phân: Nhân mỗi chữ số với giá trị vị trí của nó và cộng lại.
 - Từ thập phân sang hệ khác:
-+ Chuyển đổi phần nguyên: Dùng phép chia lặp.
-+ Chuyển đổi phần thập phân: Dùng phép nhân lặp.
-+ Chuyển đổi giữa các hệ số khác nhau (như nhị phân, bát phân, thập lục phân) cũng theo quy tắc nhóm bit.
+ + Chuyển đổi phần nguyên: Dùng phép chia lặp.
+ + Chuyển đổi phần thập phân: Dùng phép nhân lặp.
+ + Chuyển đổi giữa các hệ số khác nhau (như nhị phân, bát phân, thập lục phân) cũng theo quy tắc nhóm bit.
 ### Số nguyên có dấu:
 - Số nguyên có dấu sử dụng các phương pháp bù 1 và bù 2 để biểu diễn số âm.
 + Bù 1: Đảo ngược tất cả các bit của số dương.
@@ -64,8 +64,8 @@ Máy tính có nhiều ứng dụng trong các lĩnh vực như:
 ### Phép cộng và trừ số nguyên:
 - Cộng số nguyên không dấu: Thực hiện như phép cộng bình thường nhưng cần chú ý đến việc tràn số.
 - Cộng số nguyên có dấu:
-+ Nếu hai số khác dấu, kết quả luôn đúng.
-+ Nếu cùng dấu, phải kiểm tra dấu của kết quả để xác định tính đúng.
+ + Nếu hai số khác dấu, kết quả luôn đúng.
+ + Nếu cùng dấu, phải kiểm tra dấu của kết quả để xác định tính đúng.
 - Trừ số nguyên có dấu: Lấy bù 2 của số cần trừ và thực hiện phép cộng.
 ## Chương 3: Kỹ năng sử dụng máy tính và công cụ.
 ### Quản lý tập tin và thư mục:
